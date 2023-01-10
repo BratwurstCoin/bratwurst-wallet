@@ -1,4 +1,4 @@
-# TurtleCoin Wallet
+# BratwurstCoin Wallet
 
 ![Download Count](https://img.shields.io/github/downloads/turtlecoin/turtle-wallet-proton/total.svg)
 ![Open Issue Count](https://img.shields.io/github/issues/turtlecoin/turtle-wallet-proton)

@@ -1,5 +1,6 @@
 // Copyright (C) 2018, Zpalmtree
 // Copyright (C) 2019, WrkzCoin
+// Copyright (C) 2023, BratwurstCoin
 //
 // Please see the included LICENSE file for more information.
 
@@ -10,12 +11,12 @@ const configure = {
     /**
      * If you can't figure this one out, I don't have high hopes
      */
-    coinName: "TurtleCoin",
+    coinName: "BratwurstCoin",
 
     /**
      * Prefix for URI encoded addresses
      */
-    uriPrefix: "turtlecoin://",
+    uriPrefix: "bratwurstcoin://",
 
     /**
      * How often to save the wallet, in milliseconds
@@ -32,7 +33,7 @@ const configure = {
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
      * In TurtleCoin, this converts to TRTL
      */
-    addressPrefix: 3914525,
+    addressPrefix: 0x73d0,
 
     /**
      * Request timeout for daemon operations in milliseconds
@@ -69,7 +70,7 @@ const configure = {
     /**
      * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TRTL
      */
-    ticker: "TRTL",
+    ticker: "BWC",
 
     /**
      * Most people haven't mined any blocks, so lets not waste time scanning
@@ -112,7 +113,7 @@ const configure = {
     /**
      * The length of a standard address for your coin
      */
-    standardAddressLength: 99,
+    standardAddressLength: 98,
 
     /**
      * The length of an integrated address for your coin - It's the same as
@@ -157,24 +158,25 @@ const configure = {
      * you just set this to an empty string. If you have another API you want
      * it to support, you're going to have to modify the code in Currency.js.
      */
-    priceApiLink: "https://api.coingecko.com/api/v3/simple/price",
+    //priceApiLink: "https://api.coingecko.com/api/v3/simple/price",
 
     /**
      * A url to fetch node info from. Should follow the turtlepay format
      * detailed here: https://docs.turtlepay.io/blockapi/
      */
 
-    DefaultDaemonRPCPort: "11898",
+    DefaultDaemonRPCPort: "52642",
 
-    nodeListURL: "https://blockapi.turtlepay.io/node/list/online",
+    //nodeListURL: "https://blockapi.turtlepay.io/node/list/online",
+    nodeListURL: "bratwurstcoin.com/node/list/online.json"
 
-    currentHeightURL: "https://blockapi.turtlepay.io/height",
+    //currentHeightURL: "https://blockapi.turtlepay.io/height",
 
-    explorerURL: "https://explorer.turtlecoin.lol",
+    //explorerURL: "https://explorer.turtlecoin.lol",
 
-    githubRepo: "https://github.com/turtlecoin/turtle-wallet-proton",
+    //githubRepo: "https://github.com/turtlecoin/turtle-wallet-proton",
 
-    discordURL: "https://discord.com/invite/ubFVGH6"
+    //discordURL: "https://discord.com/invite/ubFVGH6"
 };
 
 export default configure;
